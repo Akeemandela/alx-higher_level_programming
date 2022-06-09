@@ -1,1 +1,2 @@
-This python file will drill in the requisit knowledge on modules in python.
+This is a python import modules readme. 
+It promises to hone my skill on modules in python
