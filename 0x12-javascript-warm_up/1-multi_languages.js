@@ -1,3 +1,4 @@
+#!/usr/bin/node
 let myWord = "C is fun";
 let myWord_2 = "Python is cool";
 let myWord_3 = "Javascript is amazing";
