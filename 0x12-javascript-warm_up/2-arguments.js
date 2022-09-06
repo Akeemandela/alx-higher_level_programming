@@ -1,11 +1,7 @@
 #!/usr/bin/node
-const process = require('process');
-const args = process.argv;
-args.forEach((val, index) => {
-  if (index === 0 || index === 1) {
-    console.log('No argument');
-  } else if (index === 2) {
-    console.log('Argument found');
-  } else (console.log('Argument found'));
-  console.log(`${index}: ${val}`);
-});
+const args = process.argv.length - 2;
+if (args === 0) {
+  console.log('No argument');
+} else if (args === 1) {
+  console.log('Argument found');
+} else (console.log('Argument found'));
