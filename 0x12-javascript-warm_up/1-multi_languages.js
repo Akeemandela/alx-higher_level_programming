@@ -1,6 +1,7 @@
+#!/usr/bin/node
 const myWord = 'C is fun';
-const myWord_2 = 'Python is cool';
-const myWord_3 = 'Javascript is amazing';
+const myWordOne = 'Python is cool';
+const myWordTwo = 'Javascript is amazing';
 console.log(myWord);
-console.log(myWord_2);
-console.log(myWord_3);
+console.log(myWordOne);
+console.log(myWordTwo);
